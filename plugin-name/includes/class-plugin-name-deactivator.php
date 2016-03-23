@@ -3,11 +3,11 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://example.com
- * @since      1.0.0
+ * @link       {{- url}}
+ * @since      {{- version}}
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    {{- plugin_name}}
+ * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}
  */
 
 /**
@@ -15,19 +15,19 @@
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @since      {{- version}}
+ * @package    {{- plugin_name}}
+ * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}
+ * @author     {{- author}} <{{- author_uri}}>
  */
-class Plugin_Name_Deactivator {
+class {{- plugin_name_camelcase}}_Deactivator {
 
 	/**
 	 * Short Description. (use period)
 	 *
 	 * Long Description.
 	 *
-	 * @since    1.0.0
+	 * @since    {{- version}}
 	 */
 	public static function deactivate() {
 

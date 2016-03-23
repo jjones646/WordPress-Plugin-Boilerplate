@@ -1,16 +1,15 @@
 <?php
 
 /**
- * Provide a public-facing view for the plugin
+ * The {{- parent_parent_dir}}-facing view of the plugin.
  *
- * This file is used to markup the public-facing aspects of the plugin.
+ * @link       {{- url}}
+ * @since      {{- version}}
  *
- * @link       http://example.com
- * @since      1.0.0
- *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public/partials
+ * @package    {{- plugin_name}}
+ * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}
  */
+
 ?>
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->

@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Provide a admin area view for the plugin
+ * Provide a {{- parent_parent_dir}} area view for the plugin
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://example.com
- * @since      1.0.0
+ * @link       {{- url}}
+ * @since      {{- version}}
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin/partials
+ * @package    {{- plugin_name}}
+ * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}/{{- parent_dir}}
  */
 ?>
 
