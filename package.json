@@ -12,7 +12,8 @@
   },
   "keywords": [
     "wordpress",
+    "wordpress-plugin",
     "php"
   ],
-  "license": "MIT"
+  "license": "GPL-2.0"
 }
