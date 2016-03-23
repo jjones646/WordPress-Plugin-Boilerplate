@@ -1,0 +1,18 @@
+{
+  "name": "wordpress-plugin-boilerplate",
+  "version": "1.0.0",
+  "description": "I simple simple rehash of the original WordPress-Plugin-Boilerplate for use with npm and integrations with Yeoman generators.",
+  "author": "Jonathan Jones <jjones646@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjones646/WordPress-Plugin-Boilerplate"
+  },
+  "bugs": {
+    "url": "https://github.com/jjones646/WordPress-Plugin-Boilerplate/issues"
+  },
+  "keywords": [
+    "wordpress",
+    "php"
+  ],
+  "license": "MIT"
+}
