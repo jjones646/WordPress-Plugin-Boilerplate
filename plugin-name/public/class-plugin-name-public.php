@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The <%= parent_parent_dir %>-facing functionality of the plugin.
+ * The public-facing functionality of the plugin.
  *
  * @link       <%= url %>
  * @since      <%= version %>
@@ -11,7 +11,7 @@
  */
 
 /**
- * The <%= parent_parent_dir %>-facing functionality of the plugin.
+ * The public-facing functionality of the plugin.
  *
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The <%= parent_parent_dir %>-facing view of the plugin.
+ * The public-facing view of the plugin.
  *
  * @link       <%= url %>
  * @since      <%= version %>
