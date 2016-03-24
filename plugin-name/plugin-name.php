@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       <% pluginName.titleCase %>
- * Plugin URI:        <% pluginUri %>
+ * Plugin URI:        <% url %>
  * Description:       <% description %>
  * Version:           <% version %>
  * Author:            <% author.name %>
