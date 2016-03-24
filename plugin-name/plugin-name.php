@@ -8,20 +8,20 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              {{- url}}
- * @since             {{- version}}
- * @package           {{- plugin_name}}
+ * @link              <% url %>
+ * @since             <% version %>
+ * @package           <% pluginName.fileCase %>
  *
  * @wordpress-plugin
- * Plugin Name:       {{- plugin_name}}
- * Plugin URI:        {{- plugin_uri}}
- * Description:       {{- description}}
- * Version:           {{- version}}
- * Author:            {{- author}}
- * Author URI:        {{- author_uri}}
- * License:           {{- license}}
- * License URI:       {{- license_uri}}
- * Text Domain:       {{- text_domain}}
+ * Plugin Name:       <% pluginName.titleCase %>
+ * Plugin URI:        <% pluginUri %>
+ * Description:       <% description %>
+ * Version:           <% version %>
+ * Author:            <% author.name %>
+ * Author URI:        <% author.uri %>
+ * License:           <% license.name %>
+ * License URI:       <% license.uri %>
+ * Text Domain:       <% pluginName.fileCase %>
  * Domain Path:       /languages
  */
 
@@ -32,30 +32,30 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-{{- plugin_name_strict}}-activator.php
+ * This action is documented in includes/class-<% pluginName.fileCase %>-activator.php
  */
-function activate_{{- plugin_name}}() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-{{- plugin_name_strict}}-activator.php';
-	{{- plugin_name_camelcase}}_Activator::activate();
+function activate_<% pluginName.snakeCase %>() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-<% pluginName.fileCase %>-activator.php';
+	<% pluginName.classCase %>_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-{{- plugin_name_strict}}-deactivator.php
+ * This action is documented in includes/class-<% pluginName.fileCase %>-deactivator.php
  */
-function deactivate_{{- plugin_name}}() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-{{- plugin_name_strict}}-deactivator.php';
-	{{- plugin_name_camelcase}}_Deactivator::deactivate();
+function deactivate_<% pluginName.snakeCase %>() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-<% pluginName.fileCase %>-deactivator.php';
+	<% pluginName.classCase %>_Deactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_{{- plugin_name_strict}}' );
-register_deactivation_hook( __FILE__, 'deactivate_{{- plugin_name_strict}}' );
+register_activation_hook( __FILE__, 'activate_<% pluginName.snakeCase %>' );
+register_deactivation_hook( __FILE__, 'deactivate_<% pluginName.snakeCase %>' );
 
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-{{- plugin_name_strict}}.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-<% pluginName.fileCase %>.php';
 
 /**
  * Begins execution of the plugin.
@@ -64,12 +64,12 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-{{- plugin_name_strict}}.p
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    {{- version}}
+ * @since    <% version %>
  */
-function run_{{- plugin_name_strict_lower}}() {
+function run_<% pluginName.snakeCase %>() {
 
-	$plugin = new {{- plugin_name_camelcase}}();
+	$plugin = new <% pluginName.classCase %>();
 	$plugin->run();
 
 }
-run_{{- plugin_name_strict_lower}}();
+run_<% pluginName.snakeCase %>();

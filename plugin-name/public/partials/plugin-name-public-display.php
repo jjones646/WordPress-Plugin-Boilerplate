@@ -1,13 +1,13 @@
 <?php
 
 /**
- * The {{- parent_parent_dir}}-facing view of the plugin.
+ * The <% parent_parent_dir %>-facing view of the plugin.
  *
- * @link       {{- url}}
- * @since      {{- version}}
+ * @link       <% url %>
+ * @since      <% version %>
  *
- * @package    {{- plugin_name}}
- * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}
+ * @package    <% pluginName.fileCase %>
+ * @subpackage <% pluginName.fileCase %>/public/partials
  */
 
 ?>

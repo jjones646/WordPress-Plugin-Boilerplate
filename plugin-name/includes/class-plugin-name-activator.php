@@ -3,11 +3,11 @@
 /**
  * Fired during plugin activation
  *
- * @link       {{- url}}
- * @since      {{- version}}
+ * @link       <% url %>
+ * @since      <% version %>
  *
- * @package    {{- plugin_name}}
- * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}
+ * @package    <% pluginName.fileCase %>
+ * @subpackage <% pluginName.fileCase %>/includes
  */
 
 /**
@@ -15,19 +15,19 @@
  *
  * This class defines all code necessary to run during the plugin's activation.
  *
- * @since      {{- version}}
- * @package    {{- plugin_name}}
- * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}
- * @author     {{- author}} <{{- author_uri}}>
+ * @since      <% version %>
+ * @package    <% pluginName.fileCase %>
+ * @subpackage <% pluginName.fileCase %>/includes
+ * @author     <% author.name %> <<% author.uri %>>
  */
-class {{- plugin_name_camelcase}}_Activator {
+class <% pluginName.classCase %>_Activator {
 
 	/**
 	 * Short Description. (use period)
 	 *
 	 * Long Description.
 	 *
-     * @since    {{- version}}
+     * @since    <% version %>
 	 */
 	public static function activate() {
 

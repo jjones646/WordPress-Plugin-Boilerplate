@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Provide a {{- parent_parent_dir}} area view for the plugin
+ * Provide a <% parent_parent_dir %> area view for the plugin
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       {{- url}}
- * @since      {{- version}}
+ * @link       <% url %>
+ * @since      <% version %>
  *
- * @package    {{- plugin_name}}
- * @subpackage {{- plugin_name}}/{{- parent_parent_dir}}/{{- parent_dir}}
+ * @package    <% pluginName.fileCase %>
+ * @subpackage <% pluginName.fileCase %>/admin/partials
  */
 ?>
 
