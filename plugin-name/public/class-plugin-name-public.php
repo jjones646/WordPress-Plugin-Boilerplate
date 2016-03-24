@@ -18,7 +18,7 @@
  *
  * @package    <%= pluginName.fileCase %>
  * @subpackage <%= pluginName.fileCase %>/public
- * @author     <%= author %> <<%= author_uri %>>
+ * @author     <%= author.name %> <<%= author.uri %>>
  */
 class <%= pluginName.classCase %>_Public {
 
