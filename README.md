@@ -50,7 +50,7 @@ The WordPress Plugin Boilerplate is licensed under the GPL v2 or later.
 
 > You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-A copy of the license is included in the root of the plugin’s directory. The file is named `LICENSE`.
+A copy of the license is included at [`plugin-name/LICENSE.txt`](./plugin-name/LICENSE.txt).
 
 ## Important Notes
 
