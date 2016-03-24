@@ -6,11 +6,11 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       <% url %>
- * @since      <% version %>
+ * @link       <%= url %>
+ * @since      <%= version %>
  *
- * @package    <% pluginName.fileCase %>
- * @subpackage <% pluginName.fileCase %>/includes
+ * @package    <%= pluginName.fileCase %>
+ * @subpackage <%= pluginName.fileCase %>/includes
  */
 
 /**
@@ -19,23 +19,23 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @since      <% version %>
- * @package    <% pluginName.fileCase %>
- * @subpackage <% pluginName.fileCase %>/includes
- * @author     <% author.name %> <<% author.uri %>>
+ * @since      <%= version %>
+ * @package    <%= pluginName.fileCase %>
+ * @subpackage <%= pluginName.fileCase %>/includes
+ * @author     <%= author.name %> <<%= author.uri %>>
  */
-class <% pluginName.classCase %>_i18n {
+class <%= pluginName.classCase %>_i18n {
 
 
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    <% version %>
+	 * @since    <%= version %>
 	 */
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
-			'<% pluginName.fileCase %>',
+			'<%= pluginName.fileCase %>',
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
